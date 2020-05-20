@@ -1,10 +1,12 @@
 package group.management.oodp;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
-public class Menu extends JFrame{
-    public Menu() {
-        setSize(400, 400);
-        setVisible(true);
-    }
+public class Menu extends JFrame {
+
+	public static void main(String[] args) {
+		ShowMenu show = new ShowMenu();
+		show.screen();
+	}
+
 }
